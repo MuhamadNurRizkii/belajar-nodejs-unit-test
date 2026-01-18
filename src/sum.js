@@ -1,5 +1,3 @@
-const sum = (first, second) => {
+export const sum = (first, second) => {
   return first + second;
 };
-
-module.exports = sum;

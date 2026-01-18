@@ -1,4 +1,4 @@
-const sum = require("../src/sum.js");
+import { sum } from "../src/sum";
 
 test("Tes sum function", () => {
   const result = sum(1, 2);
