@@ -19,4 +19,6 @@ test("test function getUser", () => {
     age: 20,
     address: "Bandung",
   });
+  expect(getUser()).toBeTruthy();
+  expect(getUser()).toBeDefined();
 });
