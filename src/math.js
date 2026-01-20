@@ -15,6 +15,14 @@ const getUser = () => {
   };
 };
 
+export const getUserAsync = async () => {
+  return {
+    name: "Andi",
+    age: 30,
+    address: "Surabaya",
+  };
+};
+
 export const totalPrice = (price, qty) => {
   return price * qty;
 };
